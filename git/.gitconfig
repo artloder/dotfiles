@@ -1,0 +1,12 @@
+[alias]
+	alias = config --get-regexp ^alias\\.
+	diffs = diff --staged
+	rollback = reset --soft HEAD^
+	st = status -s
+[color]
+	ui = auto
+[core]
+	excludesfile = ~/.gitignore
+[user]
+	name = Arthur Loder
+	email = art@artloder.com
